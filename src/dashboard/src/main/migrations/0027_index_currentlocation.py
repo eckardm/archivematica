@@ -15,6 +15,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='file',
             name='currentlocation',
-            field=main.models.BlobTextField(null=True, db_column=b'currentLocation', db_index=True, max_length(767)),
+            field=main.models.BlobTextField(null=True, db_column=b'currentLocation', db_index=True, max_length=767),
         ),
     ]
