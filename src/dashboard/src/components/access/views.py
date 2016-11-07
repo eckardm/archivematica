@@ -482,7 +482,7 @@ def access_arrange_start_sip(client, request, mapping, system=''):
             creator=creator,
             date=str(timezone.now().year),
             description=description,
-            rights='This content may be under copyright. Researchers are responsible for determining the appropriate use or reuse of materials.',
+            rights='This content may be under copyright. Researchers are responsible for determining the appropriate use or reuse of materials. Please consult the collection finding aid or catalog record for more information.',
             relation=relation,
         )
 
