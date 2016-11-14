@@ -1,0 +1,23 @@
+# Bank account
+\b(B|b)(A|a)(N|n)(K|k)\s(A|a)(C|c)(C|c)(O|o)(U|u)(N|n)(T|t)(S|s)?\b
+\b(B|b)(A|a)(N|n)(K|k)\s(A|a)(C|c)(C|c)\.?\b
+# Letter of reference
+\b(L|l)(E|e)(T|t)(T|t)(E|e)(R|r)(S|s)?\s(O|o)(F|f)\s(R|r)(E|e)(F|f)(E|e)(R|r)(E|e)(N|n)(C|c)(E|e)\b
+\b(L|l)(E|e)(T|t)(T|t)\.?\s(O|o)(F|f)\s(R|r)(E|e)(F|f)(E|e)(R|r)(E|e)(N|n)(C|c)(E|e)\b
+\b(L|l)(E|e)(T|t)(T|t)(E|e)(R|r)(S|s)?\s(O|o)(F|f)\s(R|r)(E|e)(F|f)\.?\b
+\b(L|l)(E|e)(T|t)(T|t)\.?\s(O|o)(F|f)\s(R|r)(E|e)(F|f)\.?\b
+# Letter of recommendation
+\b(L|l)(E|e)(T|t)(T|t)(E|e)(R|r)(S|s)?\s(O|o)(F|f)\s(R|r)(E|e)(C|c)(O|o)(M|m)(M|m)(E|e)(N|n)(D|d)(A|a)(T|t)(I|i)(O|o)(N|n)\b
+\b(L|l)(E|e)(T|t)(T|t)\.?\s(O|o)(F|f)\s(R|r)(E|e)(C|c)(O|o)(M|m)(M|m)(E|e)(N|n)(D|d)(A|a)(T|t)(I|i)(O|o)(N|n)\b
+# Alarm code
+/b(A|a)(L|l)(A|a)(R|r)(M|m)\s(C|c)(O|o)(D|d)(E|e)(S|s)?/b
+# PIN
+\b(P|p)(I|i)(N|n)(S|s)?\b
+\b(P|p)(E|e)(R|r)(S|s)(O|o)(N|n)(A|a)(L|l)\s(I|i)(D|d)(E|e)(N|n)(T|t)(I|i)(F|f)(I|i)(C|c)(A|a)(T|t)(I|i)(O|o)(N|n)\s(N|n)(U|u)(M|m)(B|b)(E|e)(R|r)(S|s)?\b
+\b(P|p)(E|e)(R|r)(S|s)\.?\s(I|i)(D|d)(E|e)(N|n)(T|t)(I|i)(F|f)(I|i)(C|c)(A|a)(T|t)(I|i)(O|o)(N|n)\s(N|n)(U|u)(M|m)(B|b)(E|e)(R|r)(S|s)?\b
+\b(P|p)(E|e)(R|r)(S|s)(O|o)(N|n)(A|a)(L|l)\s(I|i)(D|d)(E|e)(N|n)(T|t)(I|i)(F|f)(I|i)(C|c)(A|a)(T|t)(I|i)(O|o)(N|n)\s(N|n)(O|o)\.?\b
+\b(P|p)(E|e)(R|r)(S|s)\.?\s(I|i)(D|d)(E|e)(N|n)(T|t)(I|i)(F|f)(I|i)(C|c)(A|a)(T|t)(I|i)(O|o)(N|n)\s(N|n)(O|o)\.?\b
+# Tax ID
+\b(T|t)(A|a)(X|x)\s(I|i)(D|d)\b
+# Password
+\b(P|p)(A|a)(S|s)(S|s)(W|w)(O|o)(R|r)(D|d)\b

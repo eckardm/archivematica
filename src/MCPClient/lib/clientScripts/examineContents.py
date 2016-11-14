@@ -13,7 +13,9 @@ def main(target, output):
         # compressed data processing
         '-e', 'gzip', '-e', 'base64', '-e', 'hiberfile', '-e', 'pdf', '-e', 'zip', '-e', 'rar',
         # numeric accounts, such as phone numbers and ccns
-        '-e', 'accts'
+        '-e', 'accts',
+        # findlist
+        '-F', 'examineContents-findlist.txt'
     ]
     try:
         os.makedirs(output)
