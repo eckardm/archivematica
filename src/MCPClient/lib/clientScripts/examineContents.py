@@ -15,7 +15,7 @@ def main(target, output):
         # numeric accounts, such as phone numbers and ccns
         '-e', 'accts',
         # findlist
-        '-F', 'examineContents-findlist.txt'
+        '-F', 'findlist.txt'
     ]
     try:
         os.makedirs(output)
